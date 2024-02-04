@@ -1,0 +1,11 @@
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\bin\Debug\CargarElementos.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\bin\Debug\CargarElementos.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\bin\Debug\AccesoDatos.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\bin\Debug\AccesoDatos.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.pdb

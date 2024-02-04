@@ -1,0 +1,17 @@
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\AdministracionBiblioteca.exe.config
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\AdministracionBiblioteca.exe
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\AdministracionBiblioteca.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\AccesoDatos.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\CargarElementos.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\AccesoDatos.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\CargarElementos.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.Form1.resources
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.Properties.Resources.resources
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.exe
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.pdb

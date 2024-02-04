@@ -1,0 +1,6 @@
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\Dominio\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\Dominio\obj\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\Dominio\obj\Debug\Dominio.pdb
