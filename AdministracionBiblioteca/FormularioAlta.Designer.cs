@@ -1,6 +1,6 @@
 ﻿namespace AdministracionBiblioteca
 {
-    partial class FormularioAlta
+    partial class FormularioAltaLibro
     {
         /// <summary>
         /// Required designer variable.
@@ -40,8 +40,10 @@
             this.txbGenero = new System.Windows.Forms.TextBox();
             this.txbAñoPublicado = new System.Windows.Forms.TextBox();
             this.txbStock = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txbUrlFoto = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.btnAgregarAlta = new System.Windows.Forms.Button();
+            this.btnCancelarAlta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -98,7 +100,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.label6.Location = new System.Drawing.Point(61, 258);
+            this.label6.Location = new System.Drawing.Point(51, 258);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 16);
             this.label6.TabIndex = 5;
@@ -108,7 +110,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.label7.Location = new System.Drawing.Point(31, 303);
+            this.label7.Location = new System.Drawing.Point(21, 303);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(126, 16);
             this.label7.TabIndex = 6;
@@ -149,12 +151,12 @@
             this.txbStock.Size = new System.Drawing.Size(143, 20);
             this.txbStock.TabIndex = 11;
             // 
-            // textBox6
+            // txbUrlFoto
             // 
-            this.textBox6.Location = new System.Drawing.Point(150, 258);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(143, 20);
-            this.textBox6.TabIndex = 12;
+            this.txbUrlFoto.Location = new System.Drawing.Point(150, 258);
+            this.txbUrlFoto.Name = "txbUrlFoto";
+            this.txbUrlFoto.Size = new System.Drawing.Size(143, 20);
+            this.txbUrlFoto.TabIndex = 12;
             // 
             // textBox7
             // 
@@ -163,14 +165,36 @@
             this.textBox7.Size = new System.Drawing.Size(143, 20);
             this.textBox7.TabIndex = 13;
             // 
-            // FormularioAlta
+            // btnAgregarAlta
+            // 
+            this.btnAgregarAlta.Location = new System.Drawing.Point(211, 365);
+            this.btnAgregarAlta.Name = "btnAgregarAlta";
+            this.btnAgregarAlta.Size = new System.Drawing.Size(118, 43);
+            this.btnAgregarAlta.TabIndex = 14;
+            this.btnAgregarAlta.Text = "AGREGAR";
+            this.btnAgregarAlta.UseVisualStyleBackColor = true;
+            this.btnAgregarAlta.Click += new System.EventHandler(this.btnAgregarAlta_Click);
+            // 
+            // btnCancelarAlta
+            // 
+            this.btnCancelarAlta.Location = new System.Drawing.Point(35, 365);
+            this.btnCancelarAlta.Name = "btnCancelarAlta";
+            this.btnCancelarAlta.Size = new System.Drawing.Size(114, 43);
+            this.btnCancelarAlta.TabIndex = 15;
+            this.btnCancelarAlta.Text = "CANCELAR";
+            this.btnCancelarAlta.UseVisualStyleBackColor = true;
+            this.btnCancelarAlta.Click += new System.EventHandler(this.btnCancelarAlta_Click);
+            // 
+            // FormularioAltaLibro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(361, 450);
+            this.Controls.Add(this.btnCancelarAlta);
+            this.Controls.Add(this.btnAgregarAlta);
             this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txbUrlFoto);
             this.Controls.Add(this.txbStock);
             this.Controls.Add(this.txbAñoPublicado);
             this.Controls.Add(this.txbGenero);
@@ -183,8 +207,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "FormularioAlta";
-            this.Text = "FormularioAlta";
+            this.Name = "FormularioAltaLibro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Formulario Agregar Libro";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,7 +229,9 @@
         private System.Windows.Forms.TextBox txbGenero;
         private System.Windows.Forms.TextBox txbAñoPublicado;
         private System.Windows.Forms.TextBox txbStock;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txbUrlFoto;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Button btnAgregarAlta;
+        private System.Windows.Forms.Button btnCancelarAlta;
     }
 }

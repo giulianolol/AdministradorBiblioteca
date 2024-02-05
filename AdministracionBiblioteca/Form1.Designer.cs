@@ -75,6 +75,7 @@
             this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "AGREGAR LIBRO";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnEliminarLibro
             // 
@@ -102,6 +103,7 @@
             this.btnCerrar.TabIndex = 6;
             this.btnCerrar.Text = "CERRAR APP";
             this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // Form1
             // 
@@ -118,7 +120,7 @@
             this.Controls.Add(this.dgvLibros);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Administrador Biblioteca";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibros)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLibro)).EndInit();

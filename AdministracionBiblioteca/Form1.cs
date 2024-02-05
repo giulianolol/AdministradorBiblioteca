@@ -55,5 +55,16 @@ namespace AdministracionBiblioteca
             }
 
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            FormularioAltaLibro alta = new FormularioAltaLibro();
+            alta.ShowDialog();
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

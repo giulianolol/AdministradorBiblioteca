@@ -44,5 +44,29 @@ namespace Cargarelementos
                 datos.closeConnection();
             }
         }
+
+        public void Agregar(Libro nuevoLibro, Autor nuevoAutor, Genero nuevoGenero ) 
+        {
+            AccesoDatos accesoDatos = new AccesoDatos();
+            try
+            {
+                accesoDatos.SetQuery("insert into Libros (Titulo, AnioPublicacion,Stock,UrlImagen)values('" + nuevoLibro.Titulo + "',"+nuevoLibro.AñoPublicado +" ," + nuevoLibro.Stock + ",'" + nuevoLibro.UrlImagen + "')");
+                accesoDatos.SetQuery("insert into Autores(Nombre, UrlFoto)values('" + nuevoAutor.Nombre+"','"+nuevoAutor.UrlFoto+"')");
+                accesoDatos.SetQuery("insert into Generos (Nombre)values('" + nuevoGenero.Nombre + "')");
+                
+                
+                accesoDatos.executeAction();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally 
+            {
+                accesoDatos.closeConnection();
+            }
+        }
+
     }
 }

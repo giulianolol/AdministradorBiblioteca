@@ -5,7 +5,7 @@
         public int AutorId { get; set; }
         public string Nombre { get; set; }
         public string Nacionalidad { get; set; }
-
+        public string UrlFoto { get; set; }
         public override string ToString()
         {
             return Nombre;

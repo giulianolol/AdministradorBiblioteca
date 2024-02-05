@@ -15,3 +15,4 @@ C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\Admin
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.csproj.CopyComplete
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.exe
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.FormularioAltaLibro.resources
