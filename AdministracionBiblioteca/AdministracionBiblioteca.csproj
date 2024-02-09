@@ -52,19 +52,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario Eliminar.Designer.cs">
+      <DependentUpon>Formulario Eliminar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioAlta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormularioAlta.Designer.cs">
       <DependentUpon>FormularioAlta.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioModificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioModificar.Designer.cs">
+      <DependentUpon>FormularioModificar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulario Eliminar.resx">
+      <DependentUpon>Formulario Eliminar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormularioAlta.resx">
       <DependentUpon>FormularioAlta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioModificar.resx">
+      <DependentUpon>FormularioModificar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

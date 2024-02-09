@@ -2,14 +2,14 @@
 {
     public class Libro
     {
-        public int LibroID { get; set; }
+        public int LibroId{ get; set; }
         public string Titulo { get; set; }
-        public int GeneroID { get; set; }
-        public string UrlImagen { get; set; }
-        public int AñoPublicado { get; set; }
+        public string autor { get; set; }
+        public string UrlFotoAutor { get; set; }
+        public string Genero { get; set; }
+        public int AnioPublicacion { get; set; }
         public int Stock { get; set; }
-        public int AutorID { get; set; }
-        public string UrlFoto { get; set; }
-        public Autor NombreAutor { get; set; }
+        public string UrlPortada { get; set; }
+        
     }
 }

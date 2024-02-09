@@ -40,10 +40,16 @@
             this.txbGenero = new System.Windows.Forms.TextBox();
             this.txbAñoPublicado = new System.Windows.Forms.TextBox();
             this.txbStock = new System.Windows.Forms.TextBox();
-            this.txbUrlFoto = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txbUrlPortada = new System.Windows.Forms.TextBox();
+            this.txbUrlAutor = new System.Windows.Forms.TextBox();
             this.btnAgregarAlta = new System.Windows.Forms.Button();
             this.btnCancelarAlta = new System.Windows.Forms.Button();
+            this.pcbLibro = new System.Windows.Forms.PictureBox();
+            this.pcbAutor = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbLibro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbAutor)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -100,21 +106,21 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.label6.Location = new System.Drawing.Point(51, 258);
+            this.label6.Location = new System.Drawing.Point(34, 258);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 16);
+            this.label6.Size = new System.Drawing.Size(108, 16);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Url Foto Autor:";
+            this.label6.Text = "Url Foto Portada:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
-            this.label7.Location = new System.Drawing.Point(21, 303);
+            this.label7.Location = new System.Drawing.Point(51, 303);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 16);
+            this.label7.Size = new System.Drawing.Size(91, 16);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Url Imagen Portada:";
+            this.label7.Text = "Url Foto Autor:";
             // 
             // txbTitulo
             // 
@@ -143,6 +149,7 @@
             this.txbAñoPublicado.Name = "txbAñoPublicado";
             this.txbAñoPublicado.Size = new System.Drawing.Size(143, 20);
             this.txbAñoPublicado.TabIndex = 10;
+            this.txbAñoPublicado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbAñoPublicado_KeyPress);
             // 
             // txbStock
             // 
@@ -150,26 +157,29 @@
             this.txbStock.Name = "txbStock";
             this.txbStock.Size = new System.Drawing.Size(143, 20);
             this.txbStock.TabIndex = 11;
+            this.txbStock.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbStock_KeyPress);
             // 
-            // txbUrlFoto
+            // txbUrlPortada
             // 
-            this.txbUrlFoto.Location = new System.Drawing.Point(150, 258);
-            this.txbUrlFoto.Name = "txbUrlFoto";
-            this.txbUrlFoto.Size = new System.Drawing.Size(143, 20);
-            this.txbUrlFoto.TabIndex = 12;
+            this.txbUrlPortada.Location = new System.Drawing.Point(150, 258);
+            this.txbUrlPortada.Name = "txbUrlPortada";
+            this.txbUrlPortada.Size = new System.Drawing.Size(143, 20);
+            this.txbUrlPortada.TabIndex = 12;
+            this.txbUrlPortada.Leave += new System.EventHandler(this.txbUrlPortada_Leave);
             // 
-            // textBox7
+            // txbUrlAutor
             // 
-            this.textBox7.Location = new System.Drawing.Point(150, 303);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(143, 20);
-            this.textBox7.TabIndex = 13;
+            this.txbUrlAutor.Location = new System.Drawing.Point(150, 303);
+            this.txbUrlAutor.Name = "txbUrlAutor";
+            this.txbUrlAutor.Size = new System.Drawing.Size(143, 20);
+            this.txbUrlAutor.TabIndex = 13;
+            this.txbUrlAutor.Leave += new System.EventHandler(this.txbUrlAutor_Leave);
             // 
             // btnAgregarAlta
             // 
-            this.btnAgregarAlta.Location = new System.Drawing.Point(211, 365);
+            this.btnAgregarAlta.Location = new System.Drawing.Point(94, 381);
             this.btnAgregarAlta.Name = "btnAgregarAlta";
-            this.btnAgregarAlta.Size = new System.Drawing.Size(118, 43);
+            this.btnAgregarAlta.Size = new System.Drawing.Size(148, 61);
             this.btnAgregarAlta.TabIndex = 14;
             this.btnAgregarAlta.Text = "AGREGAR";
             this.btnAgregarAlta.UseVisualStyleBackColor = true;
@@ -177,24 +187,66 @@
             // 
             // btnCancelarAlta
             // 
-            this.btnCancelarAlta.Location = new System.Drawing.Point(35, 365);
+            this.btnCancelarAlta.Location = new System.Drawing.Point(94, 476);
             this.btnCancelarAlta.Name = "btnCancelarAlta";
-            this.btnCancelarAlta.Size = new System.Drawing.Size(114, 43);
+            this.btnCancelarAlta.Size = new System.Drawing.Size(148, 61);
             this.btnCancelarAlta.TabIndex = 15;
             this.btnCancelarAlta.Text = "CANCELAR";
             this.btnCancelarAlta.UseVisualStyleBackColor = true;
             this.btnCancelarAlta.Click += new System.EventHandler(this.btnCancelarAlta_Click);
+            // 
+            // pcbLibro
+            // 
+            this.pcbLibro.Location = new System.Drawing.Point(326, 36);
+            this.pcbLibro.Name = "pcbLibro";
+            this.pcbLibro.Size = new System.Drawing.Size(254, 283);
+            this.pcbLibro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbLibro.TabIndex = 16;
+            this.pcbLibro.TabStop = false;
+            // 
+            // pcbAutor
+            // 
+            this.pcbAutor.Location = new System.Drawing.Point(327, 354);
+            this.pcbAutor.Name = "pcbAutor";
+            this.pcbAutor.Size = new System.Drawing.Size(254, 177);
+            this.pcbAutor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbAutor.TabIndex = 17;
+            this.pcbAutor.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(323, 10);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(114, 23);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Portada:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(330, 328);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(88, 23);
+            this.label9.TabIndex = 19;
+            this.label9.Text = "Autor:";
             // 
             // FormularioAltaLibro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(361, 450);
+            this.ClientSize = new System.Drawing.Size(593, 558);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.pcbAutor);
+            this.Controls.Add(this.pcbLibro);
             this.Controls.Add(this.btnCancelarAlta);
             this.Controls.Add(this.btnAgregarAlta);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.txbUrlFoto);
+            this.Controls.Add(this.txbUrlAutor);
+            this.Controls.Add(this.txbUrlPortada);
             this.Controls.Add(this.txbStock);
             this.Controls.Add(this.txbAñoPublicado);
             this.Controls.Add(this.txbGenero);
@@ -210,6 +262,9 @@
             this.Name = "FormularioAltaLibro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Agregar Libro";
+            this.Load += new System.EventHandler(this.FormularioAltaLibro_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pcbLibro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbAutor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,9 +284,13 @@
         private System.Windows.Forms.TextBox txbGenero;
         private System.Windows.Forms.TextBox txbAñoPublicado;
         private System.Windows.Forms.TextBox txbStock;
-        private System.Windows.Forms.TextBox txbUrlFoto;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txbUrlPortada;
+        private System.Windows.Forms.TextBox txbUrlAutor;
         private System.Windows.Forms.Button btnAgregarAlta;
         private System.Windows.Forms.Button btnCancelarAlta;
+        private System.Windows.Forms.PictureBox pcbLibro;
+        private System.Windows.Forms.PictureBox pcbAutor;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }

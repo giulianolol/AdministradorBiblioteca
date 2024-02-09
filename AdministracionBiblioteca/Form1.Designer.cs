@@ -44,7 +44,10 @@
             // 
             this.dgvLibros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLibros.Location = new System.Drawing.Point(316, 12);
+            this.dgvLibros.MultiSelect = false;
             this.dgvLibros.Name = "dgvLibros";
+            this.dgvLibros.ReadOnly = true;
+            this.dgvLibros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvLibros.Size = new System.Drawing.Size(537, 418);
             this.dgvLibros.TabIndex = 0;
             this.dgvLibros.SelectionChanged += new System.EventHandler(this.dgvLibros_SelectionChanged);
@@ -69,7 +72,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(359, 451);
+            this.btnAgregar.Location = new System.Drawing.Point(367, 451);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(157, 50);
             this.btnAgregar.TabIndex = 3;
@@ -79,25 +82,27 @@
             // 
             // btnEliminarLibro
             // 
-            this.btnEliminarLibro.Location = new System.Drawing.Point(359, 522);
+            this.btnEliminarLibro.Location = new System.Drawing.Point(367, 522);
             this.btnEliminarLibro.Name = "btnEliminarLibro";
             this.btnEliminarLibro.Size = new System.Drawing.Size(157, 50);
             this.btnEliminarLibro.TabIndex = 4;
             this.btnEliminarLibro.Text = "ELIMINAR LIBRO";
             this.btnEliminarLibro.UseVisualStyleBackColor = true;
+            this.btnEliminarLibro.Click += new System.EventHandler(this.btnEliminarLibro_Click);
             // 
             // btnModificarLibro
             // 
-            this.btnModificarLibro.Location = new System.Drawing.Point(630, 451);
+            this.btnModificarLibro.Location = new System.Drawing.Point(638, 451);
             this.btnModificarLibro.Name = "btnModificarLibro";
             this.btnModificarLibro.Size = new System.Drawing.Size(157, 50);
             this.btnModificarLibro.TabIndex = 5;
             this.btnModificarLibro.Text = "MODIFICAR LIBRO";
             this.btnModificarLibro.UseVisualStyleBackColor = true;
+            this.btnModificarLibro.Click += new System.EventHandler(this.btnModificarLibro_Click);
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(630, 522);
+            this.btnCerrar.Location = new System.Drawing.Point(638, 522);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(157, 50);
             this.btnCerrar.TabIndex = 6;
@@ -109,7 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(876, 618);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnModificarLibro);

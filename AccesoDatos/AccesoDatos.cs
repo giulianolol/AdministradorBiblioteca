@@ -13,10 +13,9 @@ namespace Accesodatos
         {
             get { return lector; }
         }
-
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=LIBROS_DB; integrated security=true");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=BIBLIOTECA; integrated security=true");
             comando = new SqlCommand();
         }
 

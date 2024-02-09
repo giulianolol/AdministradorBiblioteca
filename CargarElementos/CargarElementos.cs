@@ -13,25 +13,24 @@ namespace Cargarelementos
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.SetQuery("select LibroID, Titulo, A.Nombre , G.Nombre ,AnioPublicacion,Stock, A.UrlFoto, UrlImagen from Libros L, Autores A, Generos G where L.AutorID = A.AutorID and L.LibroID = G.GeneroID");
+                datos.SetQuery("Select id , Titulo, autor , UrlFotoAutor,Genero, AnioPublicacion, Stock, UrlPortada From Libros L ");
                 datos.executeRead();
 
                 while (datos.Lector.Read())
                 {
                     Libro aux = new Libro();
-                    aux.LibroID = (int)datos.Lector["LibroID"];
+                    aux.LibroId = (int)datos.Lector["id"];
                     aux.Titulo = (string)datos.Lector["Titulo"];
-                    aux.UrlImagen = (string)datos.Lector["UrlImagen"];
-                    aux.NombreAutor = new Autor();
-                    aux.NombreAutor.Nombre = (string)datos.Lector["Nombre"];
-                    //aux.GeneroID = (int)datos.Lector["GeneroID"];
-                    aux.AñoPublicado = (int)datos.Lector["AnioPublicacion"];
+                    aux.autor = (string)datos.Lector["autor"];
+                    aux.UrlFotoAutor = (string)datos.Lector["UrlFotoAutor"];
+                    aux.Genero = (string)datos.Lector["Genero"];
+                    aux.AnioPublicacion = (int)datos.Lector["AnioPublicacion"];
                     aux.Stock = (int)datos.Lector["Stock"];
-                    aux.UrlFoto = (string)datos.Lector["UrlFoto"];
+                    aux.UrlPortada = (string)datos.Lector["UrlPortada"];
 
-                    lista.Add(aux);
+                    lista.Add(aux);  
                 }
-
+               
                 return lista;
             }
             catch (Exception ex)
@@ -45,17 +44,20 @@ namespace Cargarelementos
             }
         }
 
-        public void Agregar(Libro nuevoLibro, Autor nuevoAutor, Genero nuevoGenero ) 
+        public void Agregar(Libro nuevoLibro) 
         {
-            AccesoDatos accesoDatos = new AccesoDatos();
+            
+            AccesoDatos datos = new AccesoDatos();
+
             try
-            {
-                accesoDatos.SetQuery("insert into Libros (Titulo, AnioPublicacion,Stock,UrlImagen)values('" + nuevoLibro.Titulo + "',"+nuevoLibro.AñoPublicado +" ," + nuevoLibro.Stock + ",'" + nuevoLibro.UrlImagen + "')");
-                accesoDatos.SetQuery("insert into Autores(Nombre, UrlFoto)values('" + nuevoAutor.Nombre+"','"+nuevoAutor.UrlFoto+"')");
-                accesoDatos.SetQuery("insert into Generos (Nombre)values('" + nuevoGenero.Nombre + "')");
-                
-                
-                accesoDatos.executeAction();
+            { 
+                datos.SetQuery("insert into Libros (Titulo, Autor ,Genero, AnioPublicacion, Stock, UrlPortada,UrlFotoAutor)values('" + nuevoLibro.Titulo + "','"+nuevoLibro.autor +"','" + nuevoLibro.Genero + "'," + nuevoLibro.AnioPublicacion + ","+nuevoLibro.Stock+",'"+nuevoLibro.UrlPortada+ "','"+nuevoLibro.UrlFotoAutor+"')");
+                datos.executeAction();
+                datos.closeConnection();
+
+                //datos.SetQuery("insert into Autor(NombreAutor, UrlFotoAutor)values('" + nuevoAutor.NombreAutor+"','"+nuevoAutor.UrlFotoAutor+"')");
+                //datos.executeAction();
+                //datos.closeConnection();
             }
             catch (Exception ex)
             {
@@ -64,7 +66,20 @@ namespace Cargarelementos
             }
             finally 
             {
-                accesoDatos.closeConnection();
+                datos.closeConnection();
+            }
+        }
+
+        public void cargarFotos()
+        {
+            try
+            {
+                
+            }
+            catch (Exception)
+            {
+
+                throw;
             }
         }
 
