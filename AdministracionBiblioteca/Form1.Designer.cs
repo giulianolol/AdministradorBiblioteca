@@ -48,7 +48,7 @@
             this.dgvLibros.Name = "dgvLibros";
             this.dgvLibros.ReadOnly = true;
             this.dgvLibros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLibros.Size = new System.Drawing.Size(537, 418);
+            this.dgvLibros.Size = new System.Drawing.Size(548, 418);
             this.dgvLibros.TabIndex = 0;
             this.dgvLibros.SelectionChanged += new System.EventHandler(this.dgvLibros_SelectionChanged);
             // 

@@ -17,4 +17,3 @@ C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\Admin
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.pdb
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.FormularioAltaLibro.resources
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.Formulario_Eliminar.resources
-C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.FormularioModificar.resources
