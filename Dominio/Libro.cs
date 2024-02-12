@@ -3,6 +3,7 @@
 namespace Dominio
 {
     public class Libro
+
     {
         public int LibroId{ get; set; }
         [DisplayName("Título")]

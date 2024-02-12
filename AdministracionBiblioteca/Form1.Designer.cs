@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dgvLibros = new System.Windows.Forms.DataGridView();
             this.pcbLibro = new System.Windows.Forms.PictureBox();
             this.pbxFotoAutor = new System.Windows.Forms.PictureBox();
@@ -35,6 +36,8 @@
             this.btnEliminarLibro = new System.Windows.Forms.Button();
             this.btnModificarLibro = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibros)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLibro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxFotoAutor)).BeginInit();
@@ -43,36 +46,36 @@
             // dgvLibros
             // 
             this.dgvLibros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLibros.Location = new System.Drawing.Point(316, 12);
+            this.dgvLibros.Location = new System.Drawing.Point(475, 12);
             this.dgvLibros.MultiSelect = false;
             this.dgvLibros.Name = "dgvLibros";
             this.dgvLibros.ReadOnly = true;
             this.dgvLibros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLibros.Size = new System.Drawing.Size(548, 418);
+            this.dgvLibros.Size = new System.Drawing.Size(542, 627);
             this.dgvLibros.TabIndex = 0;
             this.dgvLibros.SelectionChanged += new System.EventHandler(this.dgvLibros_SelectionChanged);
             // 
             // pcbLibro
             // 
-            this.pcbLibro.Location = new System.Drawing.Point(23, 12);
+            this.pcbLibro.Location = new System.Drawing.Point(23, 24);
             this.pcbLibro.Name = "pcbLibro";
-            this.pcbLibro.Size = new System.Drawing.Size(264, 339);
+            this.pcbLibro.Size = new System.Drawing.Size(351, 470);
             this.pcbLibro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcbLibro.TabIndex = 1;
             this.pcbLibro.TabStop = false;
             // 
             // pbxFotoAutor
             // 
-            this.pbxFotoAutor.Location = new System.Drawing.Point(23, 367);
+            this.pbxFotoAutor.Location = new System.Drawing.Point(24, 521);
             this.pbxFotoAutor.Name = "pbxFotoAutor";
-            this.pbxFotoAutor.Size = new System.Drawing.Size(264, 205);
+            this.pbxFotoAutor.Size = new System.Drawing.Size(351, 294);
             this.pbxFotoAutor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxFotoAutor.TabIndex = 2;
             this.pbxFotoAutor.TabStop = false;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(367, 451);
+            this.btnAgregar.Location = new System.Drawing.Point(475, 663);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(157, 50);
             this.btnAgregar.TabIndex = 3;
@@ -82,7 +85,7 @@
             // 
             // btnEliminarLibro
             // 
-            this.btnEliminarLibro.Location = new System.Drawing.Point(367, 522);
+            this.btnEliminarLibro.Location = new System.Drawing.Point(475, 747);
             this.btnEliminarLibro.Name = "btnEliminarLibro";
             this.btnEliminarLibro.Size = new System.Drawing.Size(157, 50);
             this.btnEliminarLibro.TabIndex = 4;
@@ -92,7 +95,7 @@
             // 
             // btnModificarLibro
             // 
-            this.btnModificarLibro.Location = new System.Drawing.Point(638, 451);
+            this.btnModificarLibro.Location = new System.Drawing.Point(862, 663);
             this.btnModificarLibro.Name = "btnModificarLibro";
             this.btnModificarLibro.Size = new System.Drawing.Size(157, 50);
             this.btnModificarLibro.TabIndex = 5;
@@ -102,7 +105,7 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(638, 522);
+            this.btnCerrar.Location = new System.Drawing.Point(862, 747);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(157, 50);
             this.btnCerrar.TabIndex = 6;
@@ -110,12 +113,40 @@
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(31, -1);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(107, 22);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "PORTADA:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Black;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(31, 496);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(83, 22);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "AUTOR:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(876, 618);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(1059, 824);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnModificarLibro);
             this.Controls.Add(this.btnEliminarLibro);
@@ -131,6 +162,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pcbLibro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxFotoAutor)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -143,6 +175,8 @@
         private System.Windows.Forms.Button btnEliminarLibro;
         private System.Windows.Forms.Button btnModificarLibro;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

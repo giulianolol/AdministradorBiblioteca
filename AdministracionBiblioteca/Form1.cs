@@ -17,16 +17,28 @@ namespace AdministracionBiblioteca
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Cuando el formulario se carga, con estas lineas de comando primero creamos un nuevo objeto de tipo CargarElemento que lo usamos para poder acceder al metodo Listar()
-            CargarElemento elemento = new CargarElemento();
-            listalibros = elemento.Listar();
-            dgvLibros.DataSource = elemento.Listar();
-            dgvLibros.Columns["libroId"].Visible = false;
-            dgvLibros.Columns["UrlPortada"].Visible = false;
-            dgvLibros.Columns["UrlFotoAutor"].Visible = false;
-            //pbxFotoAutor.Load(listalibros[0].autor.UrlFotoAutor);
-            pcbLibro.Load(listalibros[0].UrlPortada);
-            pbxFotoAutor.Load(listalibros[0].UrlFotoAutor);
+            cargar();
+        }
+        public void cargar()
+        {
+            try
+            {
+                CargarElemento elemento = new CargarElemento();
+                listalibros = elemento.Listar();
+                dgvLibros.DataSource = elemento.Listar();
+                dgvLibros.Columns["libroId"].Visible = false;
+                dgvLibros.Columns["UrlPortada"].Visible = false;
+                dgvLibros.Columns["UrlFotoAutor"].Visible = false;
+                //pbxFotoAutor.Load(listalibros[0].autor.UrlFotoAutor);
+                pcbLibro.Load(listalibros[0].UrlPortada);
+                pbxFotoAutor.Load(listalibros[0].UrlFotoAutor);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
         }
 
         private void dgvLibros_SelectionChanged(object sender, EventArgs e)
@@ -60,8 +72,23 @@ namespace AdministracionBiblioteca
 
         private void btnEliminarLibro_Click(object sender, EventArgs e)
         {
-            Formulario_Eliminar baja = new Formulario_Eliminar();
-            baja.ShowDialog();
+            CargarElemento elemento = new CargarElemento();
+            Libro seleccionado;
+            try
+            {
+                DialogResult respuesta = MessageBox.Show("¿Segúro queres eliminar este libro?", "Eliminar",MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (respuesta == DialogResult.Yes) 
+                {
+                    seleccionado = (Libro)dgvLibros.CurrentRow.DataBoundItem;
+                    elemento.Eliminar(seleccionado.LibroId);
+                    cargar();
+                }                
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }           
         }
 
         private void btnModificarLibro_Click(object sender, EventArgs e)
@@ -71,7 +98,8 @@ namespace AdministracionBiblioteca
 
             FormularioAltaLibro modificar = new FormularioAltaLibro(seleccionado);
             modificar.ShowDialog();
-            
+
+            cargar();
         }
     }
 }

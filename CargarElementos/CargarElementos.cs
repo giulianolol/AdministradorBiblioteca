@@ -3,6 +3,7 @@ using Dominio;
 using System;
 using System.Collections.Generic;
 
+
 namespace Cargarelementos
 {
     public class CargarElemento
@@ -54,10 +55,6 @@ namespace Cargarelementos
                 datos.SetQuery("insert into Libros (Titulo, Autor ,Genero, AnioPublicacion, Stock, UrlPortada,UrlFotoAutor)values('" + nuevoLibro.Titulo + "','"+nuevoLibro.Autor +"','" + nuevoLibro.Genero + "'," + nuevoLibro.AnioPublicacion + ","+nuevoLibro.Stock+",'"+nuevoLibro.UrlPortada+ "','"+nuevoLibro.UrlFotoAutor+"')");
                 datos.executeAction();
                 datos.closeConnection();
-
-                //datos.SetQuery("insert into Autor(NombreAutor, UrlFotoAutor)values('" + nuevoAutor.NombreAutor+"','"+nuevoAutor.UrlFotoAutor+"')");
-                //datos.executeAction();
-                //datos.closeConnection();
             }
             catch (Exception ex)
             {
@@ -75,7 +72,7 @@ namespace Cargarelementos
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.SetQuery("update Libros set Titulo = @Titulo, Autor = @Autor, Genero = @Genero, AnioPublicacion = @AnioPublicacion, Stock = @Stock, UrlPortada = @UrlPortada, UrlFotoAutor = @UrlFotoAutor where id = 15");
+                datos.SetQuery("update Libros set Titulo = @Titulo, Autor = @Autor, Genero = @Genero, AnioPublicacion = @AnioPublicacion, Stock = @Stock, UrlPortada = @UrlPortada, UrlFotoAutor = @UrlFotoAutor where id = @LibroId");
                 datos.setearParametro("@Titulo", libro.Titulo);
                 datos.setearParametro("@Autor",libro.Autor);
                 datos.setearParametro("@Genero", libro.Genero);
@@ -83,10 +80,9 @@ namespace Cargarelementos
                 datos.setearParametro("@Stock", libro.Stock);
                 datos.setearParametro("@UrlPortada", libro.UrlPortada);
                 datos.setearParametro("@UrlFotoAutor", libro.UrlFotoAutor);
+                datos.setearParametro("@LibroId", libro.LibroId);
 
                 datos.executeAction();
-
-                 
 
             }
             catch (Exception ex)
@@ -95,10 +91,27 @@ namespace Cargarelementos
                 throw ex;
             }
             finally 
-            {
+            {              
                 datos.closeConnection();
             }
         }
 
+        public void Eliminar(int id)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.SetQuery("delete from Libros where id = @id");
+                datos.setearParametro("@id", id);
+                datos.executeAction();
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally { datos.closeConnection();}
+        } 
     }
 }
