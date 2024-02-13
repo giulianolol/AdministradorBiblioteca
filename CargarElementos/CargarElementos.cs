@@ -14,7 +14,7 @@ namespace Cargarelementos
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.SetQuery("Select id , Titulo, autor , UrlFotoAutor,Genero, AnioPublicacion, Stock, UrlPortada From Libros L ");
+                datos.SetQuery("Select id , Titulo, autor , UrlFotoAutor,Genero, AnioPublicacion, Stock, UrlPortada From Libros");
                 datos.executeRead();
 
                 while (datos.Lector.Read())
@@ -112,6 +112,23 @@ namespace Cargarelementos
                 throw;
             }
             finally { datos.closeConnection();}
-        } 
+        }
+
+        public List<Libro> filtrar(string campo, string criterio, string filtro)
+        {
+            List<Libro> lista = new List<Libro>();
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                string consulta = "Select id , Titulo, autor , UrlFotoAutor,Genero, AnioPublicacion, Stock, UrlPortada From Libros ";
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }
