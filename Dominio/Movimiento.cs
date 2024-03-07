@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    internal class MovimientoDinero
+    public class Movimiento
     {
+        public int Id { get; set; }
         public DateTime Dia { get; set; }
         public int Cantidad { get; set; }
         public string Descripcion { get; set; }

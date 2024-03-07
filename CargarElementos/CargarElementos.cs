@@ -45,6 +45,41 @@ namespace Cargarelementos
             }
         }
 
+        public List<Movimiento> ListarMovimientos()
+        {
+            List<Movimiento> lista = new List<Movimiento>();
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+
+                datos.SetQuery("select id, dia, cantidad, descripcion, tipo from MovimientosDinero");
+                datos.executeRead();
+
+                while (datos.Lector.Read())
+                {
+                    Movimiento aux = new Movimiento();
+
+                    aux.Id = (int)datos.Lector["id"];
+                    aux.Dia = (DateTime)datos.Lector["dia"];
+                    aux.Cantidad = (int)datos.Lector["cantidad"];
+                    aux.Descripcion = (string)datos.Lector["descripcion"];
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.closeConnection();
+            }
+        }
+
         public void Agregar(Libro nuevoLibro) 
         {
             

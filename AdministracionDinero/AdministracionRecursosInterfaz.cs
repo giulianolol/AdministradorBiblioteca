@@ -1,4 +1,6 @@
 ﻿using Accesodatos;
+using Cargarelementos;
+using Dominio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +15,7 @@ namespace AdministracionDinero
 {
     public partial class AdministracionRecursosInterfaz : Form
     {
+        List<Movimiento> listaMovimientos = new List<Movimiento>();
         public AdministracionRecursosInterfaz()
         {
             InitializeComponent();
@@ -20,12 +23,18 @@ namespace AdministracionDinero
 
         private void AdministracionRecursosInterfaz_Load(object sender, EventArgs e)
         {
-            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                CargarElemento elemento = new CargarElemento();
+                listaMovimientos = elemento.ListarMovimientos();
+                dgvMovmientos.DataSource = elemento.ListarMovimientos();
+                dgvMovmientos.Columns["id"].Visible = false;
+            }
+            catch (Exception)
+            {
 
-            datos.SetQuery("select id, dia, cantidad, descripcion, tipo from MovimientosDinero");
-            datos.executeRead();
-
-
+                throw;
+            }
         }
     }
 }
