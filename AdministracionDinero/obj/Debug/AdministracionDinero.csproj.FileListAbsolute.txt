@@ -1,0 +1,15 @@
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\bin\Debug\AdministracionDinero.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\bin\Debug\AdministracionDinero.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\bin\Debug\AccesoDatos.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\bin\Debug\CargarElementos.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\bin\Debug\Dominio.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\bin\Debug\AccesoDatos.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\bin\Debug\CargarElementos.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\bin\Debug\Dominio.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.AdministracionRecursosInterfaz.resources
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\Administ.074DD59B.Up2Date
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.pdb

@@ -46,6 +46,7 @@
             this.cbxCampo = new System.Windows.Forms.ComboBox();
             this.cbxCriterio = new System.Windows.Forms.ComboBox();
             this.txbFiltroAvanzado = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLibros)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbLibro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxFotoAutor)).BeginInit();
@@ -68,7 +69,7 @@
             this.pcbLibro.BackColor = System.Drawing.Color.Transparent;
             this.pcbLibro.Location = new System.Drawing.Point(23, 24);
             this.pcbLibro.Name = "pcbLibro";
-            this.pcbLibro.Size = new System.Drawing.Size(351, 470);
+            this.pcbLibro.Size = new System.Drawing.Size(313, 470);
             this.pcbLibro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcbLibro.TabIndex = 1;
             this.pcbLibro.TabStop = false;
@@ -78,7 +79,7 @@
             this.pbxFotoAutor.BackColor = System.Drawing.Color.Transparent;
             this.pbxFotoAutor.Location = new System.Drawing.Point(24, 521);
             this.pbxFotoAutor.Name = "pbxFotoAutor";
-            this.pbxFotoAutor.Size = new System.Drawing.Size(351, 294);
+            this.pbxFotoAutor.Size = new System.Drawing.Size(312, 278);
             this.pbxFotoAutor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxFotoAutor.TabIndex = 2;
             this.pbxFotoAutor.TabStop = false;
@@ -205,15 +206,17 @@
             // 
             // cbxCampo
             // 
-            this.cbxCampo.FormattingEnabled = true;
+            this.cbxCampo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCampo.Location = new System.Drawing.Point(456, 703);
             this.cbxCampo.Name = "cbxCampo";
             this.cbxCampo.Size = new System.Drawing.Size(121, 21);
+            this.cbxCampo.Sorted = true;
             this.cbxCampo.TabIndex = 16;
             this.cbxCampo.SelectedIndexChanged += new System.EventHandler(this.cbxCampo_SelectedIndexChanged);
             // 
             // cbxCriterio
             // 
+            this.cbxCriterio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCriterio.FormattingEnabled = true;
             this.cbxCriterio.Location = new System.Drawing.Point(693, 704);
             this.cbxCriterio.Name = "cbxCriterio";
@@ -227,6 +230,16 @@
             this.txbFiltroAvanzado.Size = new System.Drawing.Size(132, 20);
             this.txbFiltroAvanzado.TabIndex = 18;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(475, 749);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 50);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "CONSULTAR MOVIMIENTOS";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,6 +248,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1059, 824);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txbFiltroAvanzado);
             this.Controls.Add(this.cbxCriterio);
             this.Controls.Add(this.cbxCampo);
@@ -283,6 +297,7 @@
         private System.Windows.Forms.ComboBox cbxCampo;
         private System.Windows.Forms.ComboBox cbxCriterio;
         private System.Windows.Forms.TextBox txbFiltroAvanzado;
+        private System.Windows.Forms.Button button1;
     }
 }
 

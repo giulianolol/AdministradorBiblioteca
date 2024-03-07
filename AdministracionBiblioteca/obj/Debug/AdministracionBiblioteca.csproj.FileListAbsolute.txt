@@ -12,8 +12,10 @@ C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\Admin
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.Properties.Resources.resources
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.csproj.GenerateResource.cache
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.csproj.CoreCompileInputs.cache
-C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.csproj.CopyComplete
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.exe
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.pdb
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.FormularioAltaLibro.resources
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\AdministracionBiblioteca.Formulario_Eliminar.resources
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\obj\Debug\Administ.416BC13F.Up2Date
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\AdministracionDinero.dll
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionBiblioteca\bin\Debug\AdministracionDinero.pdb

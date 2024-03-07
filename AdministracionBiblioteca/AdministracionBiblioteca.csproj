@@ -102,6 +102,10 @@
       <Project>{1da98e4b-a9ad-4d72-9eb7-b7c08fc0b02f}</Project>
       <Name>AccesoDatos</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AdministracionDinero\AdministracionDinero.csproj">
+      <Project>{f68ee781-4683-4169-bbb0-00cded4cb854}</Project>
+      <Name>AdministracionDinero</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CargarElementos\CargarElementos.csproj">
       <Project>{7d264596-a59f-45ae-aec1-ee8ae4e3fffc}</Project>
       <Name>CargarElementos</Name>

@@ -120,7 +120,75 @@ namespace Cargarelementos
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                string consulta = "Select id , Titulo, autor , UrlFotoAutor,Genero, AnioPublicacion, Stock, UrlPortada From Libros ";
+                string consulta = "Select id , Titulo, autor , UrlFotoAutor,Genero, AnioPublicacion, Stock, UrlPortada From Libros where ";
+                if (campo == "Año Publicacion")
+                {
+                    switch (criterio)
+                    {
+                        case "Mayor a":
+                            consulta += "AnioPublicacion > " + filtro;
+                            break;
+
+                        case "Menor a":
+                            consulta += "AnioPublicacion < " + filtro;
+                            break;
+
+                        default:
+                            consulta += "AnioPublicacion = " + filtro;
+                            break;
+                    }
+                }
+                else if (campo == "Titulo")
+                {
+                    switch (criterio)
+                    {
+                        case "Comienza con":
+                            consulta += "Titulo like '"+ filtro +"%'";
+                            break;
+
+                        case "Termina con":
+                            consulta += "Titulo like '%"+filtro+"'";
+                            break;
+
+                        default:
+                            consulta += "Titulo like '%"+filtro+"%'";
+                            break;
+                    }
+                }
+                else
+                {
+                    switch (criterio)
+                    {
+                        case "Comienza con":
+                            consulta += "autor like '" + filtro + "%'";
+                            break;
+
+                        case "Termina con":
+                            consulta += "autor like '%" + filtro + "'";
+                            break;
+
+                        default:
+                            consulta += "autor like  '%" + filtro + "%'";
+                            break;
+                    }
+                }
+
+                datos.SetQuery(consulta);
+                datos.executeRead();
+                while (datos.Lector.Read())
+                {
+                    Libro aux = new Libro();
+                    aux.LibroId = (int)datos.Lector["id"];
+                    aux.Titulo = (string)datos.Lector["Titulo"];
+                    aux.Autor = (string)datos.Lector["autor"];
+                    aux.UrlFotoAutor = (string)datos.Lector["UrlFotoAutor"];
+                    aux.Genero = (string)datos.Lector["Genero"];
+                    aux.AnioPublicacion = (int)datos.Lector["AnioPublicacion"];
+                    aux.Stock = (int)datos.Lector["Stock"];
+                    aux.UrlPortada = (string)datos.Lector["UrlPortada"];
+
+                    lista.Add(aux);
+                }
 
                 return lista;
             }

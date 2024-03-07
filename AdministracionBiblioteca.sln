@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargarElementos", "CargarElementos\CargarElementos.csproj", "{7D264596-A59F-45AE-AEC1-EE8AE4E3FFFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdministracionDinero", "AdministracionDinero\AdministracionDinero.csproj", "{F68EE781-4683-4169-BBB0-00CDED4CB854}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7D264596-A59F-45AE-AEC1-EE8AE4E3FFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D264596-A59F-45AE-AEC1-EE8AE4E3FFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D264596-A59F-45AE-AEC1-EE8AE4E3FFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68EE781-4683-4169-BBB0-00CDED4CB854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68EE781-4683-4169-BBB0-00CDED4CB854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68EE781-4683-4169-BBB0-00CDED4CB854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68EE781-4683-4169-BBB0-00CDED4CB854}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

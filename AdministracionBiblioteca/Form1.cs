@@ -1,4 +1,5 @@
-﻿using Cargarelementos;
+﻿using AdministracionDinero;
+using Cargarelementos;
 using Dominio;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ namespace AdministracionBiblioteca
             cargar();
             cbxCampo.Items.Add("Titulo");
             cbxCampo.Items.Add("Autor");
-            cbxCampo.Items.Add("Año Publicación");
+            cbxCampo.Items.Add("Año Publicacion");
         }
         public void cargar()
         {
@@ -69,18 +70,23 @@ namespace AdministracionBiblioteca
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             CargarElemento cargarElemento = new CargarElemento();
-            try
-            { 
+            if (txbFiltroAvanzado.Text != "") 
+            {
+                try
+                { 
                 string campo = cbxCampo.SelectedItem.ToString();
                 string criterio = cbxCriterio.SelectedItem.ToString();
                 string filtro = txbFiltroAvanzado.Text;
 
                 dgvLibros.DataSource = cargarElemento.filtrar(campo, criterio, filtro);
-            }
-            catch (Exception ex)
-            { 
+                }
+                catch (Exception ex)
+                { 
                 MessageBox.Show(ex.ToString());
+                }           
             }
+            else MessageBox.Show("Intente con un valor valido.");
+
         }
 
         private void btnEliminarLibro_Click(object sender, EventArgs e)
@@ -164,6 +170,14 @@ namespace AdministracionBiblioteca
                 cbxCriterio.Items.Add("Termina con");
                 cbxCriterio.Items.Add("Contiene");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           AdministracionRecursosInterfaz administracion = new AdministracionRecursosInterfaz();
+
+           administracion.ShowDialog();
+
         }
     }
 }

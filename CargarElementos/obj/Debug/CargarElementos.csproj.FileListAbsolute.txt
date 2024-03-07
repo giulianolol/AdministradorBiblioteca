@@ -6,6 +6,6 @@ C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\Admin
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\bin\Debug\Dominio.pdb
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.csproj.AssemblyReference.cache
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.csproj.CoreCompileInputs.cache
-C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.csproj.CopyComplete
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.dll
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarElementos.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\CargarElementos\obj\Debug\CargarEl.961757EE.Up2Date
