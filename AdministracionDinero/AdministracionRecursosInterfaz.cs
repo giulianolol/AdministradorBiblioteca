@@ -36,5 +36,10 @@ namespace AdministracionDinero
                 throw;
             }
         }
+        private void btnAgregarMovimiento_Click(object sender, EventArgs e)
+        {
+            FormularioAgregarMovimiento AgregarMov = new FormularioAgregarMovimiento();
+            AgregarMov.ShowDialog();
+        }
     }
 }

@@ -43,20 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdministracionRecursos.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="AdministracionRecursosInterfaz.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdministracionRecursosInterfaz.Designer.cs">
       <DependentUpon>AdministracionRecursosInterfaz.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioAgregarMovimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioAgregarMovimiento.Designer.cs">
+      <DependentUpon>FormularioAgregarMovimiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AdministracionRecursosInterfaz.resx">
       <DependentUpon>AdministracionRecursosInterfaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioAgregarMovimiento.resx">
+      <DependentUpon>FormularioAgregarMovimiento.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

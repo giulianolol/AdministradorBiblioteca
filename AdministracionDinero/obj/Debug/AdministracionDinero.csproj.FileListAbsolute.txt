@@ -13,3 +13,4 @@ C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\Admin
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\Administ.074DD59B.Up2Date
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.dll
 C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.pdb
+C:\Users\Administrador\Desktop\Programacion\Curso C# Maxi Programa Nivel 2\AdministracionBiblioteca\AdministracionDinero\obj\Debug\AdministracionDinero.FormularioAgregarMovimiento.resources

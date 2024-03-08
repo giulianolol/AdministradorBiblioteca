@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\administraciondinero\\administracionrecursosinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\administraciondinero\\administracionrecursosinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|solutionrelative:administraciondinero\\administracionrecursosinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DABFE342-E685-4F4B-88E3-BDC63427A9FF}|AdministracionBiblioteca\\AdministracionBiblioteca.csproj|C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\administracionbiblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DABFE342-E685-4F4B-88E3-BDC63427A9FF}|AdministracionBiblioteca\\AdministracionBiblioteca.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\administracionbiblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABFE342-E685-4F4B-88E3-BDC63427A9FF}|AdministracionBiblioteca\\AdministracionBiblioteca.csproj|solutionrelative:administracionbiblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABFE342-E685-4F4B-88E3-BDC63427A9FF}|AdministracionBiblioteca\\AdministracionBiblioteca.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\administracionbiblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DABFE342-E685-4F4B-88E3-BDC63427A9FF}|AdministracionBiblioteca\\AdministracionBiblioteca.csproj|solutionrelative:administracionbiblioteca\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{519C2DF9-8076-4516-86AA-55F59DC3B6B7}|Dominio\\Dominio.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\dominio\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{519C2DF9-8076-4516-86AA-55F59DC3B6B7}|Dominio\\Dominio.csproj|solutionrelative:dominio\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\administraciondinero\\formularioagregarmovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|solutionrelative:administraciondinero\\formularioagregarmovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABFE342-E685-4F4B-88E3-BDC63427A9FF}|AdministracionBiblioteca\\AdministracionBiblioteca.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\administracionbiblioteca\\formularioalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DABFE342-E685-4F4B-88E3-BDC63427A9FF}|AdministracionBiblioteca\\AdministracionBiblioteca.csproj|solutionrelative:administracionbiblioteca\\formularioalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\administraciondinero\\administracionrecursosinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|solutionrelative:administraciondinero\\administracionrecursosinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\administraciondinero\\formularioagregarmovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68EE781-4683-4169-BBB0-00CDED4CB854}|AdministracionDinero\\AdministracionDinero.csproj|solutionrelative:administraciondinero\\formularioagregarmovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D264596-A59F-45AE-AEC1-EE8AE4E3FFFC}|CargarElementos\\CargarElementos.csproj|c:\\users\\administrador\\desktop\\programacion\\curso c# maxi programa nivel 2\\administracionbiblioteca\\cargarelementos\\cargarelementos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D264596-A59F-45AE-AEC1-EE8AE4E3FFFC}|CargarElementos\\CargarElementos.csproj|solutionrelative:cargarelementos\\cargarelementos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,25 +42,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 232,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 459,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionBiblioteca\\Form1.cs",
+              "RelativeDocumentMoniker": "AdministracionBiblioteca\\Form1.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionBiblioteca\\Form1.cs",
+              "RelativeToolTip": "AdministracionBiblioteca\\Form1.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:04:17.284Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Movimiento.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\Dominio\\Movimiento.cs",
-              "RelativeDocumentMoniker": "Dominio\\Movimiento.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\Dominio\\Movimiento.cs",
-              "RelativeToolTip": "Dominio\\Movimiento.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionBiblioteca\\Form1.cs",
+              "RelativeDocumentMoniker": "AdministracionBiblioteca\\Form1.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionBiblioteca\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AdministracionBiblioteca\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T16:37:48.228Z",
+              "WhenOpened": "2024-03-08T15:04:15Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormularioAlta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionBiblioteca\\FormularioAlta.cs",
+              "RelativeDocumentMoniker": "AdministracionBiblioteca\\FormularioAlta.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionBiblioteca\\FormularioAlta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AdministracionBiblioteca\\FormularioAlta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:03:03.685Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdministracionRecursosInterfaz.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionDinero\\AdministracionRecursosInterfaz.cs",
+              "RelativeDocumentMoniker": "AdministracionDinero\\AdministracionRecursosInterfaz.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionDinero\\AdministracionRecursosInterfaz.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AdministracionDinero\\AdministracionRecursosInterfaz.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:02:27.772Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormularioAgregarMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionDinero\\FormularioAgregarMovimiento.cs",
+              "RelativeDocumentMoniker": "AdministracionDinero\\FormularioAgregarMovimiento.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionDinero\\FormularioAgregarMovimiento.cs",
+              "RelativeToolTip": "AdministracionDinero\\FormularioAgregarMovimiento.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:02:08.495Z",
               "EditorCaption": ""
             },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormularioAgregarMovimiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionDinero\\FormularioAgregarMovimiento.cs",
+              "RelativeDocumentMoniker": "AdministracionDinero\\FormularioAgregarMovimiento.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionDinero\\FormularioAgregarMovimiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AdministracionDinero\\FormularioAgregarMovimiento.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T14:56:14.917Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CargarElementos.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\CargarElementos\\CargarElementos.cs",
+              "RelativeDocumentMoniker": "CargarElementos\\CargarElementos.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\CargarElementos\\CargarElementos.cs",
+              "RelativeToolTip": "CargarElementos\\CargarElementos.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAFMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T13:59:39.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "9253627c-836f-4739-ada6-05191e518daa",
+        "Display": 1,
+        "X": 483,
+        "Y": 314,
+        "Width": 1870,
+        "Height": 1083,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -49,22 +170,10 @@
               "RelativeDocumentMoniker": "AdministracionDinero\\AdministracionRecursosInterfaz.cs",
               "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionDinero\\AdministracionRecursosInterfaz.cs",
               "RelativeToolTip": "AdministracionDinero\\AdministracionRecursosInterfaz.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB4AAAA8AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T16:17:30.929Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionBiblioteca\\Form1.cs",
-              "RelativeDocumentMoniker": "AdministracionBiblioteca\\Form1.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Programacion\\Curso C# Maxi Programa Nivel 2\\AdministracionBiblioteca\\AdministracionBiblioteca\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "AdministracionBiblioteca\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-13T02:13:17.528Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

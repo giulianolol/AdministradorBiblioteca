@@ -30,7 +30,7 @@
         {
             this.dgvMovmientos = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAgregarMovimiento = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovmientos)).BeginInit();
             this.SuspendLayout();
@@ -39,7 +39,10 @@
             // 
             this.dgvMovmientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMovmientos.Location = new System.Drawing.Point(343, 62);
+            this.dgvMovmientos.MultiSelect = false;
             this.dgvMovmientos.Name = "dgvMovmientos";
+            this.dgvMovmientos.ReadOnly = true;
+            this.dgvMovmientos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMovmientos.Size = new System.Drawing.Size(448, 373);
             this.dgvMovmientos.TabIndex = 0;
             // 
@@ -53,14 +56,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "LISTA MOVIMIENTOS";
             // 
-            // button1
+            // btnAgregarMovimiento
             // 
-            this.button1.Location = new System.Drawing.Point(32, 78);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(299, 92);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "AGREGAR MOVIMIENTO";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAgregarMovimiento.Location = new System.Drawing.Point(32, 78);
+            this.btnAgregarMovimiento.Name = "btnAgregarMovimiento";
+            this.btnAgregarMovimiento.Size = new System.Drawing.Size(299, 92);
+            this.btnAgregarMovimiento.TabIndex = 2;
+            this.btnAgregarMovimiento.Text = "AGREGAR MOVIMIENTO";
+            this.btnAgregarMovimiento.UseVisualStyleBackColor = true;
+            this.btnAgregarMovimiento.Click += new System.EventHandler(this.btnAgregarMovimiento_Click);
             // 
             // button2
             // 
@@ -78,7 +82,7 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAgregarMovimiento);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvMovmientos);
             this.Name = "AdministracionRecursosInterfaz";
@@ -94,7 +98,7 @@
 
         private System.Windows.Forms.DataGridView dgvMovmientos;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAgregarMovimiento;
         private System.Windows.Forms.Button button2;
     }
 }

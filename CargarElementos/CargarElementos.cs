@@ -63,11 +63,34 @@ namespace Cargarelementos
                     aux.Dia = (DateTime)datos.Lector["dia"];
                     aux.Cantidad = (int)datos.Lector["cantidad"];
                     aux.Descripcion = (string)datos.Lector["descripcion"];
+                    aux.Tipo = (string)datos.Lector["tipo"];
 
                     lista.Add(aux);
                 }
 
                 return lista;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.closeConnection();
+            }
+        }
+
+        public void AgregarMovimiento(Movimiento nuevoMovimiento)
+        {
+
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.SetQuery("insert into MovimientosDinero (dia, cantidad, descripcion, tipo)values('" + nuevoMovimiento.Dia + "','" + nuevoMovimiento.Cantidad+ "','" + nuevoMovimiento.Descripcion + "'," + nuevoMovimiento.Tipo + "')");
+                datos.executeAction();
+                datos.closeConnection();
             }
             catch (Exception ex)
             {
